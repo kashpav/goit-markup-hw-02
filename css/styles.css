@@ -5,7 +5,7 @@
     --footer-links-color: rgba(255, 255, 255, 0.6);
     --second-header-color: #FFFFFF;
     --accent-color: #2196F3;
-    --second-background-color: #E5E5E5;
+    /* --second-background-color: #E5E5E5; */
     --team-background-color: #F5F4FA;
 }
 
@@ -63,17 +63,17 @@ color: #000000;
 }
 
 .header-link {
-    font-family: 'Roboto';
-    font-style: normal;
+    /* font-family: 'Roboto';
+    font-style: normal; */
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-        color: var(--header-color);
+    color: var(--header-color);
 }
 
 .contacts {
-font-family: 'Roboto';
+/* font-family: 'Roboto'; */
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -99,7 +99,7 @@ color: var(--text-color);
 }
 
 .main-title {
-    font-family: 'Roboto'; sans-serif;
+    /* font-family: 'Roboto'; sans-serif; */
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -114,7 +114,7 @@ color: var(--text-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
+    display: inline-block;
     align-items: center;
     text-align: center;
     cursor: pointer;
@@ -125,11 +125,11 @@ color: var(--text-color);
 
 /* ---advantages section--- */
 
-.advantages { 
-    background-color: var(--second-background-color);
+/* .advantages { 
+    background-color: var(--second-background-color); */
 }
 
-.adv-title {
+.advantage-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -138,9 +138,8 @@ color: var(--text-color);
     color: var(--header-color);
 }
 
-.adv-text {
-    
-    font-weight: 400;
+.advantage-text {
+    /* font-weight: 400; */
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -149,9 +148,9 @@ color: var(--text-color);
 
 /* ---About us section--- */
 
-.about-us {
+/*  .about-us {
     background-color: var(--second-background-color);
-}
+} */
 
 .about-title {
     font-weight: 700;
@@ -187,7 +186,7 @@ color: var(--text-color);
 }
 
 .team-duty {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -217,7 +216,7 @@ color: var(--second-header-color);
 
 .footer-adress {
 font-family: 'Roboto';
-font-style: normal;
+font-style: normal; 
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -234,11 +233,27 @@ color: var(--second-header-color);
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
+    display: inline-block;
     letter-spacing: 0.03em;
     background: #F5F4FA;
     cursor: pointer;
     color: #212121;
+    background-color: rgba(245, 244, 250, 1);
+    border: transparent;
 }
+
+/* .main-btn {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: var(--accent-color); */
 
 .btn:hover,
 .btn:focus {
@@ -258,7 +273,7 @@ color: var(--second-header-color);
 }
 
 .projects-tipe {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;

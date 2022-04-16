@@ -239,7 +239,6 @@ color: var(--second-header-color);
     cursor: pointer;
     color: #212121;
     background-color: rgba(245, 244, 250, 1);
-    border: transparent;
 }
 
 /* .main-btn {
